@@ -1,0 +1,29 @@
+/* seleciona todas as linhas pares */
+p:nth-child(odd) {
+    color: blue;
+    background: red;
+}
+/* seleciona todas as linhas impares */
+p:nth-child(even) {
+    color: red;
+    background: blue;
+}
+
+p:nth-child(1), p:nth-child(5){
+    text-align: center
+}
+
+.amarelo{
+    background-color: yellow
+}
+
+p strong{
+    background-color: green;
+    font-size: 20px;  
+}
+
+p em{
+    background-color:purple;
+    font-size: 20px;  
+}
+
